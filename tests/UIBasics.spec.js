@@ -2,7 +2,7 @@
 const {test, expect}= require('@playwright/test');
 const { text } = require('stream/consumers');
 
-//using array function
+
 //({browser}) playwrite fixer, So fixer is global variable ypu can use entire project
 
 /*
