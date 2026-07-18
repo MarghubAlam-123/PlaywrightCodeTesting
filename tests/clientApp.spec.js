@@ -45,9 +45,6 @@ const {test, expect} = require('@playwright/test');
 //     const orderId = await page.locator(".em-spacer-1 .ng-star-inserted").textContent();
 //     console.log(orderId);   
 // })
-
-
-
 test('Client app login',async ({page}) => {
 
     const email = "marghub146@gmail.com";
