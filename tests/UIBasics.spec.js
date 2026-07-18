@@ -2,22 +2,6 @@
 const {test, expect}= require('@playwright/test');
 const { text } = require('stream/consumers');
 
-/*
-test("First playwright test",async function(){
-    //so in java script there is no guartee to execute all steps/code in sync like step1,step2,step3, might be test3 execute before step2.
-    // So explicitely mention await to wait until nest steps
-     await
-     // so for every steps write every time await before code.So when we write the Await keyword it means steps is in Asynchronous, So before
-     //  the 
-     // function is need to write async then use await keyword otherwise it will not work. async generally tell the function is in 
-     // asynchronous order
-
-    //step1
-    //step2
-    //step3
-})   
-*/
-
 //using array function
 //({browser}) playwrite fixer, So fixer is global variable ypu can use entire project
 
