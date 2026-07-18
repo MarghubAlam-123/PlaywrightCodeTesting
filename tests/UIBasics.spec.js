@@ -4,7 +4,7 @@ const { text } = require('stream/consumers');
 
 
 //({browser}) playwrite fixer, So fixer is global variable ypu can use entire project
-
+// added new comment
 /*
 test('browser context playwrite test',async ({browser})=>{
     //open browser in new context without cookies/cache like incognito mod, open fresh browser, browser without much information,fresh instance
